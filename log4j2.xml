@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration>
+    <Appenders>
+        <File name="log" fileName="log.log" append="true">
+            <PatternLayout pattern="%d{ISO8601} [%-5p][%52.52c] - %m%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="log"/>
+        </Root>
+    </Loggers>
+</Configuration>

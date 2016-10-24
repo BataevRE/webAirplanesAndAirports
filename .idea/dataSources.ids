@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><component name="dataSourceStorage">
+  <data-source source="LOCAL" name="jdbc/study" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="a6c19332-efd4-4063-b2e5-cb008d343fcf">
+    <jdbc-driver>oracle.jdbc.driver.OracleDriver</jdbc-driver>
+    <jdbc-url>jdbc:oracle:thin:[user/password]@192.168.56.102:1521:orcl</jdbc-url>
+    <user-name>study</user-name>
+    <user-password>dfd9dfdedfdfdfcedfd3</user-password>
+    <schema-pattern>*.STUDY</schema-pattern>
+    <default-dialect>Oracle</default-dialect>
+    <libraries>
+      <library>
+        <url>jar://$PROJECT_DIR$/lib/ojdbc6.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>
